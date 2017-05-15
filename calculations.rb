@@ -21,6 +21,6 @@ end
 
 if __FILE__ == $0
   parser = Parser.new
-  puts ARGV
+  #puts ARGV
   puts parser.parser(ARGV[0])
 end
